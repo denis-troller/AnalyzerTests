@@ -37,7 +37,8 @@ namespace WebAnalyzerTests.Controllers
         public Entity1 Get([FromRoute] string name)
         {
             var e1 = _ctx.Database.SqlQuery<Entity1>($"SELECT * FROM Entity1s WHERE Name = {name}").ToList();
-
+            var e2 = _ctx.Database.SqlQueryRaw<Entity1>($"SELECT * FROM Entity1s WHERE Name = {name}").ToList();
+            var res1 = e2.First();
             return e1.First();
         }
 
