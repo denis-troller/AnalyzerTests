@@ -42,6 +42,11 @@ namespace WebAnalyzerTests.Controllers
             return e1.First();
         }
 
+        [HttpPost("dangerous")]
+        public void DeleteFile(string path)
+        {
+            System.IO.File.Delete(path);
+        }
 
     }
 }
