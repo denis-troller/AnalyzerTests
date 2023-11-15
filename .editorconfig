@@ -148,4 +148,4 @@ csharp_style_expression_bodied_indexers = true:silent
 csharp_indent_labels = one_less_than_current
 
 [*.cs]
-dotnet_diagnostic.ASP0018.severity = error
+dotnet_diagnostic.ASP0018.severity = warning
