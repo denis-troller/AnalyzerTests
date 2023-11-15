@@ -31,6 +31,11 @@ app.MapPost("/dangerous", (string path) =>
     File.Delete(path);
 });
 
+app.MapPost("/useless/{id:int}", (int id) =>
+{
+    File.Delete(id.ToString());
+});
+
 app.Run();
 
 internal record WeatherForecast(DateTime Date, int TemperatureC, string? Summary)
