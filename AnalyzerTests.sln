@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyzerTests", "AnalyzerTests\AnalyzerTests.csproj", "{0E466D90-D373-4426-BB93-E61B37949746}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnalyzerTests", "AnalyzerTests\AnalyzerTests.csproj", "{0E466D90-D373-4426-BB93-E61B37949746}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAnalyzerTests", "WebAnalyzerTests\WebAnalyzerTests.csproj", "{CCE82FE2-EB99-4295-A1AA-98EFDBFCA620}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAnalyzerTests", "WebAnalyzerTests\WebAnalyzerTests.csproj", "{CCE82FE2-EB99-4295-A1AA-98EFDBFCA620}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApiTest", "MinimalApiTest\MinimalApiTest.csproj", "{279A67F9-7920-44F0-A6BC-5FCA464B118D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalApiTest", "MinimalApiTest\MinimalApiTest.csproj", "{279A67F9-7920-44F0-A6BC-5FCA464B118D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5F9C20BD-3D07-4B1D-A638-B1605A27CFBE}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

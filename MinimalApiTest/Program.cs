@@ -31,9 +31,9 @@ app.MapPost("/dangerous", (string path) =>
     File.Delete(path);
 });
 
-app.MapPost("/useless/{id:int}", (int id) =>
+app.MapPost("/useless/{id:int}", (string path) =>
 {
-    File.Delete(id.ToString());
+    File.Delete(path);
 });
 
 app.Run();
