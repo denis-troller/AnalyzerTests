@@ -41,6 +41,7 @@ public class C
 
     private bool _atLeastOneRead = false;
 
+
     public void ReadStream(FileStream stream) // Noncompliant: Uses only System.IO.Stream methods
     {
         int a;
