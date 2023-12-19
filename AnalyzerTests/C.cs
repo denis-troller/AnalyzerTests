@@ -15,7 +15,7 @@ public class C
         return GetValue2(type, key);
     }
 
-    public static string? GetValue(Type resourceType, string key)
+    public static string? GetValue(IReflect resourceType, string key)
     {
         PropertyInfo? messageProperty = resourceType.GetProperty(key, BindingFlags.Static | BindingFlags.Public);
         if (messageProperty == null)
@@ -26,7 +26,7 @@ public class C
         return messageProperty.GetValue(null) as string;
     }
 
-    private static string? GetValue2(Type resourceType, string key)
+    private static string? GetValue2(IReflect resourceType, string key)
     {
         Console.WriteLine("Called");
 
