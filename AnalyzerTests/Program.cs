@@ -3,6 +3,8 @@ using AnalyzerTests;
 
 Console.WriteLine("Hello, World!");
 
+int I;
+
 C.Get(typeof(string), "a");
 C.Get2(typeof(string), "a");
 C.GetValue(typeof(string), "a");
