@@ -11,5 +11,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.13" />
   </ItemGroup>
-
+  <ItemGroup>
+     <Content Include="AnalyzerTests.csproj" />
+  </ItemGroup>
 </Project>
