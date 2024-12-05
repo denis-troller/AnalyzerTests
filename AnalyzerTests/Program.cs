@@ -6,6 +6,7 @@ Console.WriteLine("Hello, World!");
 int I;
 
 var apiKey = "aio_XFKJb9078YvbkljV0879vhjkj7G4";
+var sonar = "b6aacfcf7358cc0afb651e3fd7607df7814af792";
 
 C.Get(typeof(string), "a");
 C.Get2(typeof(string), "a");
