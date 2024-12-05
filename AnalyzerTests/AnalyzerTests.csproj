@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <ApiKey>aio_XFKJb9078YvbkljV0879vhjkj7G4</ApiKey>
+    <ApiKey>AIzaSyCis4NzxMw1aJyvUIrjGILjPkSdxrRfof4</ApiKey>
   </PropertyGroup>
 
   <ItemGroup>
