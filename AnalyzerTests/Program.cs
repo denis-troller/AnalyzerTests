@@ -5,6 +5,8 @@ Console.WriteLine("Hello, World!");
 
 int I;
 
+var apiKey = "aio_XFKJb9078YvbkljV0879vhjkj7G4";
+
 C.Get(typeof(string), "a");
 C.Get2(typeof(string), "a");
 C.GetValue(typeof(string), "a");
