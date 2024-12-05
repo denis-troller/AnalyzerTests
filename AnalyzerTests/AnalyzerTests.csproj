@@ -13,5 +13,6 @@
   </ItemGroup>
   <ItemGroup>
      <Content Include="AnalyzerTests.csproj" />
+     <Content Include="AnalyzerTests.csproj1" />
   </ItemGroup>
 </Project>
