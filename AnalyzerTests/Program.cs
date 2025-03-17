@@ -3,9 +3,9 @@ using AnalyzerTests;
 
 Console.WriteLine("Hello, World!");
 
-#pragma warning disable CS0168
+#pragma warning disable S1481
 int I;
-#pragma warning restore CS0168
+#pragma warning restore S1481
 
 var apiKey = "aio_XFKJb9078YvbkljV0879vhjkj7G4";
 var sonar = "b6aacfcf7358cc0afb651e3fd7607df7814af792";
