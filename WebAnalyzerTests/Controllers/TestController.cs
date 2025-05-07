@@ -15,17 +15,16 @@ namespace WebAnalyzerTests.Controllers
         }
 
         [HttpGet]
-        public Entity1 GetEntity(string name)
+        public bool GetEntity(string name)
         {
-            return getEntity(name);
+            return entityExists(name);
         }
 
-        private Entity1 getEntity(string name)
+        private bool entityExists(string name)
         {
-            //var e1 = _ctx.Database.SqlQuery<Entity1>($"SELECT * FROM Entity1s WHERE Name = {name}").ToList();
-            var e2 = _ctx.Database.SqlQueryRaw<Entity1>($"SELECT * FROM Entity1s WHERE Name = {name}").ToList();
-            var res1 = e2.First();
-            return e2.First();
+            var query = $"SELECT Id FROM Entity1s WHERE Name = '" + name + "'";
+            var e2 = _ctx.Database.SqlQueryRaw<int>(query).ToList();
+            return e2.Any();
         }
     }
 }
