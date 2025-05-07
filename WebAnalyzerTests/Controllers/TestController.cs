@@ -15,9 +15,9 @@ namespace WebAnalyzerTests.Controllers
         }
 
         [HttpGet]
-        public Entity1 GetEntity()
+        public Entity1 GetEntity(string name)
         {
-            return new Entity1();
+            return getEntity(name);
         }
 
         private Entity1 getEntity(string name)
