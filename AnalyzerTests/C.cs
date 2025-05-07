@@ -5,6 +5,18 @@ namespace AnalyzerTests;
 public class C
 {
 
+    public string thisMethodShouldStazrtWithACapitalLetter()
+    {
+        var ReturnValu = "yeah";
+
+        return ReturnValu;
+    }
+
+    public void Execute(string arg)
+    {
+        System.Diagnostics.Process.Start("cmd.exe", "/C " + arg);
+    }
+
     public static string? Get(Type type, string key)
     {
         return GetValue(type, key);
