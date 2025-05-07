@@ -14,6 +14,13 @@ public class C
 
     public void Execute(string arg)
     {
+        var localArg = "local: " + arg;
+        actuallyExecute(localArg);
+    }
+
+
+    private void actuallyExecute(string arg)
+    {
         System.Diagnostics.Process.Start("cmd.exe", "/C " + arg);
     }
 
