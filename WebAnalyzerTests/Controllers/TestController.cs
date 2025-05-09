@@ -17,7 +17,7 @@ namespace WebAnalyzerTests.Controllers
         [HttpGet]
         public bool GetEntity(string name)
         {
-            return true;
+            return entityExists(name);
         }
 
         private bool entityExists(string name)
