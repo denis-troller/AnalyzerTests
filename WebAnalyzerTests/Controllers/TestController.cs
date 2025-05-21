@@ -20,7 +20,7 @@ namespace WebAnalyzerTests.Controllers
             return entityExists(name);
         }
 
-        private bool entityExists(string name)
+        private bool EntityExists(string name)
         {
             var query = "SELECT * FROM Entity1s WHERE Name = '" + name + "'";
             var e2 = _ctx.Entity1s.FromSqlRaw(query).ToList();
