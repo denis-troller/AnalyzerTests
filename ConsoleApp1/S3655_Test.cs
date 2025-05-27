@@ -30,7 +30,7 @@
         public DateTime? ConvertToDateTime()
         {
             periodStartDate = DateTime.Now;
-            return periodStartDate.Value;
+            return null; // periodStartDate.Value;
         }
 
     }
